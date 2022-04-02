@@ -26,5 +26,4 @@ resource "google_sql_database_instance" "instance" {
 resource "google_sql_user" "users" {
   name     = "spotmusic-tfuser"
   instance = google_sql_database_instance.instance.name
-  host     = "34.132.237.150"
 }
