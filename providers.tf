@@ -13,12 +13,12 @@ provider "google" {
 #  credentials = file("/home/vagrant/gcpkey.json")
 
   project = "hackathon-6aso-grupo-08"
-  region  = "us-central1"
-  zone    = "us-central1-a"
+  region  = "us-west1"
+  zone    = "us-west1-b"
 }
 
 provider "google-beta" {
   project = "hackathon-6aso-grupo-08"
-  region  = "us-central1"
-  zone    = "us-central1-a"
+  region  = "us-west1"
+  zone    = "us-west1-b"
 }
